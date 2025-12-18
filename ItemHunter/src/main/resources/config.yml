@@ -1,0 +1,45 @@
+# ItemHunter Konfiguration
+
+# Welche Item-Kategorien sollen enthalten sein?
+categories:
+  blocks: true
+  items: true
+  tools: true
+  weapons: true
+  armor: true
+  food: true
+  materials: true
+  misc: true
+
+# Items die ausgeschlossen werden sollen (zusätzlich zur automatischen Filterung)
+# Die meisten unobtainable Items werden automatisch gefiltert:
+# - Alle Spawn Eggs
+# - Command Blocks, Barrier, Structure Blocks
+# - Technische Blöcke (Portale, Piston-Teile, etc.)
+# - Pflanzen-Stufen (Crops, Stems, etc.)
+# - Infested Blocks
+# 
+# Hier kannst du zusätzliche Items ausschließen:
+excluded-items:
+  # Beispiel für weitere Ausschlüsse:
+  # - DRAGON_EGG  # Falls zu schwer
+  # - ELYTRA      # Falls zu schwer
+  # - NETHER_STAR # Falls zu schwer
+
+# Sound-Effekte
+sounds:
+  item-found: ENTITY_PLAYER_LEVELUP
+  challenge-complete: UI_TOAST_CHALLENGE_COMPLETE
+  challenge-start: ENTITY_ENDER_DRAGON_GROWL
+
+# Nachrichten-Prefix
+prefix: "&8[&6ItemHunt&8] &r"
+
+# Timer in der Action Bar anzeigen?
+show-timer-actionbar: true
+
+# Fortschritt in der BossBar anzeigen?
+show-progress-bossbar: true
+
+# Tablist mit TPS, Ping und Fortschritt anzeigen?
+show-tablist: true

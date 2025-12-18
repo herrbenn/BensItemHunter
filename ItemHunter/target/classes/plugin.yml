@@ -1,0 +1,20 @@
+name: ItemHunter
+version: 1.0.0
+main: de.b3ncloud.itemhunter.ItemHunter
+api-version: '1.21'
+author: HerrrBennn
+description: Item Hunt Challenge - Finde alle Items im Spiel!
+
+commands:
+  itemhunt:
+    description: Hauptbefehl für Item Hunt Challenge
+    usage: /<command> <start|stop|pause|resume|status|items|reset|skip>
+    aliases: [ih, hunt, itemhunter]
+
+permissions:
+  itemhunter.admin:
+    description: Admin-Rechte für Item Hunter
+    default: op
+  itemhunter.use:
+    description: Grundrechte für Item Hunter
+    default: true
